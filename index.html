@@ -870,7 +870,7 @@
           try {
             const token = AuthManager.getAccessToken();
             const response = await fetch(
-              "https://benestjs-production.up.railway.app/barcode",
+              "https://benestjs-production.up.railway.app/profile/barcode",
               {
                 headers: {
                   Authorization: `Bearer ${token}`,
